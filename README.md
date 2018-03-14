@@ -5,5 +5,5 @@ This is a simple maven project that should allow you to use JAX-RS (via Jersey) 
 
 When running the REST service will be available at `<host>/examplejaxrs/services/items` and return a 'Hello, world' message. 
 
-The application was tested with Apache Tomcat version 8.0 and version 8.5.
+The application was tested with Apache Tomcat versions 8.0 and 8.5.
 
