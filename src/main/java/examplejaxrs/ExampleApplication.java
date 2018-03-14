@@ -13,6 +13,7 @@ public class ExampleApplication extends Application {
     
     public ExampleApplication() {
         singletons.add(new TestJaxRsService());
+        singletons.add(new NewService());
     }
     
     @Override
@@ -24,5 +25,4 @@ public class ExampleApplication extends Application {
     public Set<Object> getSingletons() {
         return singletons;
     }
-
 }
